@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+/* font-family: 'Square Peg', cursive; */
+
+html{
+    background-color: black;
+}
+
+
+
+#indexflex{
+display: flex;
+line-height: 0;
+flex-direction: column;
+align-items: center;
+max-height: fit-content;
+margin: auto;
+}
+
+#photoflex{
+display: flex;
+line-height: 0;
+flex-wrap: wrap;
+width: 800px;
+flex-direction: row;
+margin: auto;
+}
+
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+a :hover{
+  color: white;
+}
+
+#listflex{ 
+  line-height: 0;
+  flex-direction: column;
+  align-items: center;
+  max-height: fit-content;
+  margin: auto;
+  font-size: 50px; 
+  text-align: center;
+  font-family: 'Square Peg', cursive;
+  font-weight: 100;
+}
+
+
+
+.oneshow:hover:after{
+  content: attr(data-one);
+  color: white; 
+  display: flex;
+ align-items: center;
+  flex-wrap: wrap; 
+  font-size: 20px; 
+  line-height: 24px;
+  text-align: justify;
+  font-family: 'Square Peg', cursive;
+}
+
+img.oneshow:hover{
+  display: none; 
+  
+}
+
+.twoshow:hover:after{
+  content: attr(data-one);
+  color: white; 
+  display: flex;
+ align-items: center;
+  flex-wrap: wrap; 
+  font-size: 20px; 
+  line-height: 24px;
+  text-align: justify;
+  font-family: 'Square Peg', cursive;
+}
+
+img.twoshow:hover{
+  display: none; 
+  
+}
+
+.threeshow:hover:after{
+  content: attr(data-one);
+  color: white; 
+  display: flex;
+ align-items: center;
+  flex-wrap: wrap; 
+  font-size: 20px; 
+  line-height: 24px;
+  text-align: justify;
+  font-family: 'Square Peg', cursive;
+}
+
+img.threeshow:hover{
+  display: none; 
+  
+}
+
+#button{
+  color: white;
+}
+
+#demo{
+  color: white;
+}
+
+.fourshow:hover:after{
+  content: attr(data-one);
+  color: white; 
+  display: flex;
+ align-items: center;
+  flex-wrap: wrap; 
+  font-size: 20px; 
+  line-height: 24px;
+  text-align: justify;
+  font-family: 'Square Peg', cursive;
+}
+
+img.fourshow:hover{
+  display: none; 
+  
+}
+
+.fiveshow:hover:after{
+  content: attr(data-one);
+  color: white; 
+  display: flex;
+ align-items: center;
+  flex-wrap: wrap; 
+  font-size: 20px; 
+  line-height: 24px;
+  text-align: justify;
+  font-family: 'Square Peg', cursive;
+}
+
+img.fiveshow:hover{
+  display: none; 
+  
+}
+.Reading{
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Square Peg', cursive;
+  font-weight: 300;
+}
+
+#orange{
+  color: orange; 
+}
+
+#blue{ 
+  color: aqua;
+}
+
+#red{
+  color: red;
+  font-size: 50px; 
+  text-align: center;
+  font-family: 'Square Peg', cursive;
+  font-weight: 100;
+}
+
+#yellow{
+  color: yellow;
+  font-size: 50px; 
+  text-align: center;
+  font-family: 'Square Peg', cursive;
+  font-weight: 100;
+}
+
+#purple{
+  color: purple;
+  font-size: 50px; 
+  text-align: center; 
+  font-family: 'Square Peg', cursive;
+  font-weight: 100;
+}
+
+.small{
+  color: white;
+  font-size: 50px; 
+  text-align: center;
+  font-family: 'Square Peg', cursive;
+  font-weight: 100;
+}
+

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap');
+
+/* font-family: 'Oswald', sans-serif; */
+
+#indexflex{
+display: flex;
+line-height: 0;
+flex-direction: column;
+align-items: center;
+max-height: fit-content;
+margin: auto;
+}
+
+.starving{
+  color: black;
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+
+.starving a{
+    text-decoration: none;
+    color:black;
+}
+
+.list a{
+    text-decoration: none;
+    color:black;
+}
+
+.or{
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+}
+.hungry{
+ color:black; 
+ font-size: 100px;
+ text-align: center;
+ font-family: 'Oswald', sans-serif;
+ font-weight: 600;
+}
+
+.hungry a{
+    text-decoration: none;
+    color:black;
+}
+
+.favorites{
+color:black; 
+ font-size: 100px;
+ text-align: center;
+ font-family: 'Oswald', sans-serif;
+ font-weight: 600;
+}
+
+.list ul{
+list-style: none;
+
+}
+.list li{
+color:black; 
+font-size: 50px;
+text-align: center;
+font-family: 'Oswald', sans-serif;
+font-weight: 200;   
+}
+
+.your-centered-div {
+display: flex;
+align-items: center;
+
+}
