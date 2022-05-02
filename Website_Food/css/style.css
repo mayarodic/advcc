@@ -11,8 +11,46 @@ max-height: fit-content;
 margin: auto;
 }
 
-.starving{
+
+nav{
+  border-style: solid;
+  max-width: 50px;
+  text-align: center;
+}
+
+#About{ 
   color: black;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+
+.welcome{
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600; 
+} 
+
+.text{
+  color: rgba(187, 164, 96, 0.939);
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+
+.text2{
+  color: rgba(28, 24, 11, 0.939);
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+.starving{
+  color: rgba(187, 164, 96, 0.939);
   font-size: 100px;
   text-align: center;
   font-family: 'Oswald', sans-serif;
@@ -21,7 +59,7 @@ margin: auto;
 
 .starving a{
     text-decoration: none;
-    color:black;
+    color:rgba(187, 164, 96, 0.939);
 }
 
 .list a{
@@ -34,10 +72,10 @@ margin: auto;
   font-size: 50px;
   text-align: center;
   font-family: 'Oswald', sans-serif;
-  font-weight: 200;
+  font-weight: 600;
 }
 .hungry{
- color:black; 
+ color:rgba(187, 164, 96, 0.939); 
  font-size: 100px;
  text-align: center;
  font-family: 'Oswald', sans-serif;
@@ -46,11 +84,12 @@ margin: auto;
 
 .hungry a{
     text-decoration: none;
-    color:black;
+    color:rgba(187, 164, 96, 0.939);
+    stroke-width: 10;
 }
 
 .favorites{
-color:black; 
+color:rgba(187, 164, 96, 0.939); 
  font-size: 100px;
  text-align: center;
  font-family: 'Oswald', sans-serif;
@@ -66,7 +105,8 @@ color:black;
 font-size: 50px;
 text-align: center;
 font-family: 'Oswald', sans-serif;
-font-weight: 200;   
+font-weight: 200;
+list-style-type: none;  
 }
 
 .your-centered-div {
