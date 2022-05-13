@@ -5,6 +5,19 @@ html{
     background-color: black;
 }
 
+nav{
+  border-style: solid;
+  max-width: 120px;
+  text-align: center;
+  margin-left: 1em;
+}
+#calc{ 
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Square Peg', cursive;
+  font-weight: 600;
+}
 
 
 #indexflex{
@@ -15,6 +28,7 @@ align-items: center;
 max-height: fit-content;
 margin: auto;
 }
+
 
 #photoflex{
 display: flex;
@@ -189,3 +203,40 @@ img.fiveshow:hover{
   font-weight: 100;
 }
 
+header {
+text-align: center;
+font-size: 25px;
+color: white;
+font-weight: 600;
+font-family: 'Square Peg', cursive;
+}
+
+.box {
+width: 300px;
+height: 20px;
+font-size: 15px;
+border-radius: 5px;
+}
+
+section {
+text-align: center;
+}
+
+
+h3 {
+width: 800px;
+text-align: center;
+color: white;
+}
+
+button {
+background-color: orange;
+border-radius: 5px;
+width: 100px;
+font-size: 15px;
+}
+
+button:hover {
+cursor: pointer;
+background-color: #8B0000;
+}
